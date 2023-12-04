@@ -1,0 +1,129 @@
+body {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    background-color: white;
+    display: flex;
+    border-radius: 1em;
+    width: 881px;
+    height: 519px;
+    box-shadow: 0px 0px 7px -1px rgba(46,82,255,0.88);
+}
+
+#result-section {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 1));
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 1em;
+    width: 50%;
+}
+
+#result-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(241, 72%, 35%, 1));
+    border-radius: 10em;
+    width: 250px;
+    height: 250px;
+}
+
+#result-header {
+    color: white;
+    font-size: 25px;
+}
+
+#percentage {
+    color: white;
+    font-size: 60px;
+}
+
+#of {
+    color: gray;
+    font-weight: bolder;
+}
+
+#great {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#text {
+    text-align: center;
+    color: lavender;
+}
+
+#summary-section {
+    padding: 25px;
+    width: 50%;
+}
+
+#title {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+#components {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.summary-component {
+    display: flex;
+    padding: 15px;
+    border-radius: .5em;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#reaction {
+    background-color: rgba(255,47,47, 0.1); /* Adjust the RGB values and alpha channel as per your color */
+}
+
+#memory {
+    background-color: rgba(255,183,47,0.1);
+}
+
+#verbal {
+    background-color: rgba(30,166,126,0.1);
+}
+
+#visual {
+    background-color: rgba(30,74,166,0.1);
+}
+
+.component-title, .component-score {
+    color: black;
+    font-weight: 700;
+}
+
+#continue {
+    padding: 25px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 10em;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#continue-text {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
